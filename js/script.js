@@ -1,3 +1,5 @@
+"use strict";
+
 const numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', '');
 const personalMovieDB = {
     count: numberOfFilms,
@@ -13,6 +15,6 @@ const a = prompt('Одина из последних просмотренных 
       d = prompt('На сколько оцените его?', '');
 
 personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+personalMovieDB.movies[c] = d;   /* задание уже существующего свойства - только ковычки квадратные, так как через точку создаст новое свойство */
 
 console.log(personalMovieDB);
