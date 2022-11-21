@@ -6,7 +6,7 @@ if (4 == 9){
     console.log('Not OK');
 }
 
-const num = 50;
+/* const num = 50;
 
 if (num < 49) {
     console.log('Мало');
@@ -15,8 +15,8 @@ if (num < 49) {
 } else {
     console.log('в самый раз');
 }
-
-(num == 50) ? console.log('в самый раз'): console.log('Мало');
+ */
+/* (num == 50) ? console.log('в самый раз'): console.log('Мало'); */
 
 const num = 53;
 switch (num) { /* что сравнивать */
@@ -31,5 +31,5 @@ switch (num) { /* что сравнивать */
         break;
     default:
         console.log('не в этот раз');
-        break  /* обязательно прерывать или будет все по очереди выполняться */
+        break;  /* обязательно прерывать или будет все по очереди выполняться */
 }
